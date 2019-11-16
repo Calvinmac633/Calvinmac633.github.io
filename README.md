@@ -1,1 +1,2 @@
-# Calvinmac633.github.io
+# homework-one
+portfolio - HW one
