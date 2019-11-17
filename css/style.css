@@ -3,7 +3,7 @@
 }
 body {
     font-family: 'Quicksand', sans-serif;;
-    background: rgb(42, 80, 32);
+    background: rgb(66, 95, 58);
     /* width: 1680px; */
     width: 100%;
     margin: 0;
@@ -11,7 +11,7 @@ body {
 }
 nav {
     background-color: whitesmoke;
-    box-shadow: 0 4px 8px 0 rgb(87, 156, 70);
+    box-shadow: 0 4px 8px 0 rgb(128, 177, 115);
     margin-bottom: 25px;
     z-index: 10;
     /* position: fixed; */
@@ -33,7 +33,7 @@ h1 {
 }
 .Cal {
     float: left;
-    background: rgb(87, 156, 70);
+    background: rgb(128, 177, 115);
     /* box-shadow: 0 6px 10px 0 orange; */
     margin-left: 25%;
     height: 75px;
@@ -52,13 +52,13 @@ li {
     box-sizing: border-box;
     /* border-left: solid 1px grey;
     border-right: solid 1px grey; */
-    float: right;
+    float: left;
     list-style-type: none;
     display: inline;
     padding: 5px;
     margin-top: 20px;
 }
-li:not(:first-child) {
+li:not(:last-child) {
     border-right: solid 1px grey;
 }
 section {
@@ -81,7 +81,7 @@ footer {
     height: 50px;
     text-align: center;
     padding: 10px;
-    border-top: rgb(87, 156, 70) solid 10px;
+    border-top: rgb(128, 177, 115) solid 10px;
 }
 #Cal {
     box-sizing: border-box;
@@ -94,7 +94,7 @@ footer {
 }
 h3 {
     margin-left: 25px;
-    color: rgb(87, 156, 70);
+    color: rgb(128, 177, 115);
     font-family: 'Quicksand', sans-serif;
     /* text-shadow: 1px 1px darkgray; */
 }
