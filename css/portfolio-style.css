@@ -22,9 +22,10 @@ h1 {
   margin-top: 25px;
   text-align: center;
   color: whitesmoke;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Staatliches', cursive;
   font-weight: 500;
-  font-size: 1.60rem;
+  font-size: 1.50rem;
+  letter-spacing: .175rem;
 }
 .Cal {
     float: left;
@@ -47,8 +48,8 @@ li {
   float: left;
   list-style-type: none;
   display: inline;
-  padding: 5px;
-  margin-top: 20px;
+  padding: 0 20px;
+    margin-top: 25px;
 }
 li:not(:last-child) {
     border-right: solid 1px grey;
@@ -64,10 +65,15 @@ a:focus {
   color: red;
 }
 h3 {
-  padding: 25px 0 0 25px;
-  font-family: 'Quicksand', sans-serif;
+  padding: 25px 0 10px 0px;
+  font-family: 'Staatliches', cursive;
   color: rgb(128, 177, 115);
-
+  font-size: 1.5rem;
+  font-weight: 100;
+  margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+  border-bottom: maroon solid 1px;
 }
 footer {
   position: fixed;
@@ -79,7 +85,7 @@ footer {
   text-align: center;
   height: 50px;
   text-align: center;
-  padding: 10px;
+  padding: 30px;
   margin-top: 20px;
   z-index: 999;
   border-top: rgb(128, 177, 115) solid 10px;
@@ -103,6 +109,13 @@ td {
 }
 img {
   /* position: relative; */
+  /* margin-top: 20px; */
+}
+#sky {
+  margin-top: 5px
+}
+#coffee {
+  margin-top: 5px
 }
 p {
     position: absolute;
