@@ -1,8 +1,16 @@
-# homework-one
-portfolio - HW one
+Prerequisites 
+- Computer
+- Internet Access
+- Web Browser
 
-<!-- Hello! Welcome to my Portfolio Repository -->
+---------
+Purpose
+To display my works as a full-stack computer programmer.
 
-<!-- Click the links in the upper right hand corner to navigate my website -->
+---------
+Navigate
+Use the buttons in the navigation bar at the top of your screen to shift between pages. 
 
-<!-- Feel free to leave your contact info and a brief message -->
+Use the dropdown arrow for a special page dedicated to my lovely golden retriever, Mabel. 
+
+---------

@@ -1,0 +1,24 @@
+input {
+    width: 25%;
+    margin-bottom: 10px;
+}
+textarea {
+    width: 100%;
+}
+#exampleFormControlTextarea1 {
+    margin: 0;
+    width: 75%;
+}
+h3 {
+    color: whitesmoke;
+}
+form {
+    color: whitesmoke;
+}
+.form-control {
+    width: 25%;
+    min-width: 200px;
+}
+button {
+    margin-top: 10px;
+}

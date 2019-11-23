@@ -5,65 +5,167 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="css/portfolio-style.css">
-    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Anton|Staatliches|Varela+Round&display=swap" rel="stylesheet">
+    <title>Calvin Macintosh</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-portfolio.css">
 </head>
 
 <body>
-    <nav>
-        <div class="Cal">
-            <h1>Calvin Macintosh</h1>
-        </div>
-        <ul>
-            <li><a href="index.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-
-    <div class="wrapper">
-        <h3>Portfolio</h3>
-        <table>
-            <tr>
-                <td>
-                    <div class="overlap">
-                        <img src="assets/images/Strawberries_1080-200x200.jpg" alt="Strawberries">
-                        <a href="#">
-                            <p class="Caption">Cool Fruit</p>
-                        </a>
+        <nav class="navbar navbar-expand-lg" style="background-color: rgb(102, 141, 83);">
+                <a class="navbar-brand" href="index.html">Calvin Macintosh</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <div class="nav-link">
+                        <li class="nav-item active">
+                            <!-- <a class="nav-link" href="index.html">Main <span class="sr-only">(current)</span></a> -->
+                            <a href="index.html"><i class="fas fa-home" href="index.html" ></i></a>
+                        </li>
                     </div>
-                </td>
-                <td>
-                    <img src="assets/images/View_921-200x200.jpg" alt="View">
-                    <a href="#">
-                        <p class="Caption">Awesome Views</p>
-                    </a>
-                </td>
-                <td>
-                    <img src="assets/images/House_946-200x200.jpg" alt="House">
-                    <a href="#">
-                        <p class="Caption">Sturdy Houses</p>
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img src="assets/images/Sky_1056-200x200.jpg" alt="Sky" id="sky">
-                    <a href="#">
-                        <p class="Caption">Great Sky</p>
-                    </a>
-                </td>
-                <td>
-                    <img src="assets/images/Coffee_882-200x200.jpg" alt="Coffee" id="coffee">
-                    <a href="#">
-                        <p class="Caption">Creamy Coffee</p>
-                    </a>
-                </td>
-            </tr>
-        </table>
+                    <div class="nav-link">
+                        <li class="nav-item">
+                                <a href="portfolio.html"> <i class="fas fa-folder" href="portfolio.html"></i></a>
+                            <!-- <i class="fas fa-folder"></i> -->
+                        </li>
+                    </div>
+                    <div class="nav-link">
+                        <li class="nav-item">
+                            <!-- <a class="nav-link" href="contact.html">Contact</a> -->
+                           <a href="contact.html"> <i class="far fa-address-book" href="contact.html"></i></a>
+                        </li>
+                    </div>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="mabel.html">#1 Dog <i class="fas fa-paw" style=color:rgb(102,141,83)></i></a>
+                                
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+    <div class="wrapper">
+
     </div>
+
+    <br>
+
+    <div class="wrapper-port">
+        <div class="row">
+            <div class="col-sm">
+                <img src="Assets/Images/blue-water.jpg" class="rounded mx-auto d-block" alt="Placeholder">
+                <a href="#">
+                        <!-- <p class="caption">Choppy Waves</p> -->
+                    </a>
+            </div>
+            <div class="col-sm">
+                <img src="Assets/Images/red-doors.jpg" class="rounded mx-auto d-block" alt="Placeholder">
+                <a href="#">
+                        <!-- <p class="caption">Old Buildings</p> -->
+                    </a>
+            </div>
+            <div class="col-sm">
+                <img src="Assets/Images/green-grass.jpg" class="rounded mx-auto d-block" alt="Placeholder">
+                <a href="#">
+                        <!-- <p class="caption">Green Grass</p> -->
+                    </a>
+            </div>
+            <div class="col-sm">
+                <img src="Assets/Images/white-laptop.jpg" class="rounded mx-auto d-block" alt="Placeholder">
+                <a href="#">
+                        <!-- <p class="caption">Hi-Tech</p> -->
+                    </a>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="wrapper-port">
+        <div class="row" id="row-3">
+            <div class="col-sm">
+                <img src="Assets/Images/red-hat-girl.jpg" class="rounded mx-auto d-block" alt="Placeholder">
+                <a href="#">
+                        <!-- <p class="caption-middle">Photo Shoot</p> -->
+                    </a>
+            </div>
+            <div class="col-sm">
+                <img src="Assets/Images/yellow-trolleys.jpg" class="rounded mx-auto d-block" alt="Placeholder">
+                <a href="#">
+                        <!-- <p class="caption-middle">Two Trolleys</p> -->
+                    </a>
+            </div>
+            <div class="col-sm">
+                <img src="Assets/Images/busy-city.jpg" class="rounded mx-auto d-block" alt="Placeholder">
+                <a href="#">
+                        <!-- <p class="caption-middle">Busy Bees</p> -->
+                    </a>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="wrapper-port">
+        <div class="row">
+            <div class="col-sm">
+                <img src="Assets/Images/white-mountain.jpg" class="rounded mx-auto d-block" alt="Placeholder">
+                <a href="#">
+                        <!-- <p class="caption">Big Rocks</p> -->
+                    </a>
+            </div>
+            <div class="col-sm">
+                <img src="Assets/Images/teal-car.jpg" class="rounded mx-auto d-block" alt="Placeholder">
+                <a href="#">
+                        <!-- <p class="caption">Scrap Yard</p> -->
+                    </a>
+            </div>
+            <div class="col-sm">
+                <img src="Assets/Images/green-grass.jpg" class="rounded mx-auto d-block" alt="Placeholder">
+                <a href="#">
+                        <!-- <p class="caption">Aliens</p> -->
+                    </a>
+            </div>
+            <div class="col-sm">
+                <img src="Assets/Images/white-stairs.jpg" class="rounded mx-auto d-block" alt="Placeholder">
+                <a href="#">
+                        <!-- <p class="caption">Spooky Stairs</p> -->
+                    </a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
     <footer>Copyright 2019</footer>
 </body>
 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+<script src="https://kit.fontawesome.com/ecbb7c1fc7.js" crossorigin="anonymous"></script>
+
+
 </html>
+
+<!-- <img src="http://placehold.it/150x150" alt="Placeholder" class="img-thumbnail"> -->
