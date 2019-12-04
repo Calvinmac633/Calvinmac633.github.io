@@ -1,0 +1,17 @@
+* {
+    text-align: center;
+}
+.container {
+    border: 1px solid black;
+    padding: 1rem;
+}
+h2 {
+    margin-top: 0;
+}
+textarea {
+    border: grey dashed 1px;
+}
+#password {
+    width: 250px;
+    height: 50px;
+}
