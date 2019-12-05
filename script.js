@@ -31,6 +31,13 @@ function promptMe() {
 
     var pwdChar = prompt("How many characters would you like your password to be?");
     console.log(pwdChar);
+    if (pwdChar < 8 || pwdChar > 128) {
+        alert("Password must be between 8 and 128 characters");
+        return
+    } else if (isNaN(pwdChar)) {
+        alert("Enter in a number between 8 and 128");
+        return
+    }
 
 
     // Confirms
@@ -121,6 +128,14 @@ function promptMe() {
     else if (includeLow) {
         one(pwdLowArray);
     }
+}
+
+function copy() {
+    var copyText = document.getElementById("password");
+    copyText.select();
+    copyText.setSelectionRange(0, 9999);
+    document.execCommand("copy");
+    alert("Your password has been copied to your clipboard!");
 }
 
     // function one (a) {

@@ -11,19 +11,21 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body style="background-image: url('https://wallpaperaccess.com/full/280837.jpg');">
 
   <header>
-    <h1>Password Generator</h1>
+    <div class="container">
+    <h1>Pineapple Password Generator</h1>
+  </div>
   </header>
   <div class="container">
     <h2>Generate a Password</h2>
     <div class="textarea">
-      <textarea readonly id="password" placeholder="Your Secure Password" aria-label="Generated Password"></textarea>
+      <textarea readonly id="password" placeholder="Click 'Generate Password' to get started!" aria-label="Generated Password"></textarea>
     </div>
     <button type="button" class="btn btn-danger" onclick="promptMe()" id="generate">Generate Password</button>
     <!-- <button type="button" class="btn btn-danger">Danger</button> -->
-    <button type="button" class="btn btn-secondary" id="copy">
+    <button type="button" class="btn btn-secondary" id="copy" onclick="copy()">
       Copy to Clipboard
     </button>
     <!-- <button type="button" class="btn btn-secondary">Secondary</button> -->
