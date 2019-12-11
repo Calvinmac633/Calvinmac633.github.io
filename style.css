@@ -1,23 +1,42 @@
 * {
-    text-align: center;
+    overflow: hidden;
 }
-.container {
-    border: 1px solid black;
-    padding: 1rem;
-    margin-top: 2rem;
-    background: rgba(127, 195, 168, 0.801);
-
+#time, #highscore {
+    text-align: right;
+}
+p {
+    margin: 20px;
 }
 h1 {
-    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    padding-bottom: 5px;
 }
-h2 {
-    margin-top: 0;
+#main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto 0;
 }
-textarea {
-    border: grey dashed 1px;
+#startButton {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    align-items: center;
 }
-#password {
-    width: 350px;
-    height: 50px;
+.answers {
+    background: rgb(40,167,69);
+    color: white;
+    width: 135px;
+}
+ul {
+    padding: 0;
+    padding-top: 10px;
+}
+.score {
+    background: rgb(40,167,69);
+    color: white;
+    margin-left: 5px;
 }
