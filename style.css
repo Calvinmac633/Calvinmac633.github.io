@@ -1,0 +1,35 @@
+body {
+    background-image: url("https://cdn.dribbble.com/users/1291159/screenshots/2853099/trees02.gif");
+    /* background-image: url("https://cdn.dribbble.com/users/1162077/screenshots/4382009/animated-pattern.gif"); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    z-index: 1;
+}
+.dropdown-item:hover {
+    background-color: rgb(170, 170, 170);
+}
+.navbar-collapse {
+    display: flex;
+    justify-content: center;
+}
+#calvinPic {
+    height: 360px;
+    width: 220px;
+    float: right;
+    opacity: 1;
+    z-index: 999;
+}
+.card {
+    margin: 0 10%;
+    opacity: .75;
+    z-index: 1;
+}
+.card-header {
+    background-color: rgba(0, 132, 193, 0.75);
+    z-index: 1;
+}
+
+#cardImg1 {
+    /* width: 100px; */
+    /* height: 100px; */
+}
