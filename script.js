@@ -1,3 +1,20 @@
+function sendMail() {
+    var link = "mailto:calvinmac633@gmail.com"
+            //  + "?cc=myCCaddress@example.com"
+             + "&subject=" + escape("Message from profile")
+             + "&body=" + escape(document.getElementById('exampleInputEmail1').value)
+    ;
+
+    window.location.href = link;
+}
+
+
+
+
+
+
+
+
 let queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?fq=news_desk:Technology&api-key=PXr1oRZXATAdybruY0ii3Skeq1x4a0fJ";
 
 $(document).ready(function () {
@@ -12,7 +29,7 @@ $(document).ready(function () {
         function renderNews(index) {
             var image = response.response.docs[index].multimedia[48].legacy.thumbnail
             if (index === 0) {
-                $("#cardImg1").attr("src", image)
+                // $("#cardImg1").attr("src", image)
                 var title = response.response.docs[index].headline.main
                 $("#cardTitle1").text(title)
                 var text = response.response.docs[index].abstract

@@ -20,7 +20,7 @@ button {
   }
 
 .textarea {
-    margin-right: 40%;
+    margin-right: 50%;
 }
 @media screen and (max-width: 900px) {
     .textarea {
