@@ -1,4 +1,5 @@
 loadImages();
+loadAppImages();
 
 function createEl(htmlString = "", className) {
   const el = document.createElement(htmlString);
@@ -29,12 +30,12 @@ function initLazyImages() {
 function loadImages() {
   fetch("/api/images")
     .then(res => res.json())
-    .then(data => createProfileImage(data))
+    .then(data => populateImages(data))
     // .then(data => createAppImage(data))
     .then(() => initLazyImages());
 }
 
-function createProfileImage(data) {
+function populateImages(data) {
   
   const container = document.getElementsByClassName("imgcontainer")[0];
 
@@ -49,14 +50,13 @@ function createProfileImage(data) {
 
   console.log(data)
   const appImg = createEl("img", "appImag");
-  appImg.setAttribute("src", data[1].image)
+  appImg.setAttribute("src", data[2].image)
   console.log(appContainer);
   console.log(appImg)
   appContainer.appendChild(appImg);
 
-
-
-
+  buttonClicked = document.getElementsByClassName("is-active");
+  console.log(buttonClicked)
 }
 
 

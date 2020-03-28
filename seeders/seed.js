@@ -7,25 +7,25 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/imageperformanc
 
 const imageSeed = [
   {
-    description: "Day At The Library",
+    description: "Calvin",
     image: "/assets/images/1.jpg",
     rating: 0,
     date: new Date(Date.now())
   },
   {
-    description: "Forests Overhead",
+    description: "Restaurant App",
     image: "/assets/images/2.jpg",
     rating: 0,
     date: new Date(Date.now())
   },
   {
-    description: "Brick Wall",
+    description: "Notetaker App",
     image: "/assets/images/3.jpg",
     rating: 0,
     date: new Date(Date.now())
   },
   {
-    description: "Abstract Door In The Wall",
+    description: "Weather App",
     image: "/assets/images/4.jpg",
     rating: 0,
     date: new Date(Date.now())
