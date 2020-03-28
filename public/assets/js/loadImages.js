@@ -50,13 +50,15 @@ function populateImages(data) {
 
   console.log(data)
   const appImg = createEl("img", "appImag");
-  appImg.setAttribute("src", data[2].image)
+  appImg.setAttribute("src", data[1].image)
   console.log(appContainer);
   console.log(appImg)
   appContainer.appendChild(appImg);
 
   buttonClicked = document.getElementsByClassName("is-active");
-  console.log(buttonClicked)
+  console.log(buttonClicked);
+
+
 }
 
 
