@@ -1,27 +1,21 @@
 {
-  "name": "calvinmac633.github.io",
+  "name": "images-demo",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Calvinmac633/Calvinmac633.github.io.git"
+    "seed": "node seeders/seed.js"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Calvinmac633/Calvinmac633.github.io/issues"
-  },
-  "homepage": "https://github.com/Calvinmac633/Calvinmac633.github.io#readme",
   "dependencies": {
-    "bulma-carousel": "^4.0.4",
-    "express": "^4.17.1",
-    "mysql2": "^2.1.0",
-    "require": "^2.4.20",
-    "sequelize": "^5.21.5"
+    "bulma": "^0.8.1",
+    "compression": "^1.7.4",
+    "express": "^4.16.4",
+    "glob": "^7.1.4",
+    "mongoose": "^5.5.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
