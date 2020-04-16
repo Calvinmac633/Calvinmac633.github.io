@@ -4,7 +4,7 @@ $(document).ready(function () {
 
     tabs[0].setAttribute("class", "is-active");
     let appImg = document.getElementById("appImg")
-    appImg.setAttribute("src", "../assets/images/2.jpg");
+    appImg.setAttribute("src", "../images/2.jpg");
     let a = document.createElement("a")
     // .setAttribute("href", "https://github.com/mms211/What-Do-You-Want-To-Eat-App");
     console.log(a)
@@ -24,7 +24,7 @@ $(document).ready(function () {
     notetakerTag.addEventListener("click", function () {
         tabs[0].setAttribute("class", "");
         tabs[1].setAttribute("class", "is-active");
-        appImg = document.getElementById("appImg").setAttribute("src", "../assets/images/3.jpg");
+        appImg = document.getElementById("appImg").setAttribute("src", "../images/3.jpg");
         tabs[2].setAttribute("class", "");
 
         a.href = "https://github.com/Calvinmac633/note-taker-homework"
@@ -36,7 +36,7 @@ $(document).ready(function () {
         tabs[0].setAttribute("class", "");
         tabs[1].setAttribute("class", "");
         tabs[2].setAttribute("class", "is-active");
-        appImg = document.getElementById("appImg").setAttribute("src", "../assets/images/4.jpg");
+        appImg = document.getElementById("appImg").setAttribute("src", "../images/4.jpg");
 
 
         a.href = "https://calvinmac633.github.io/weather-app/"
@@ -47,7 +47,7 @@ $(document).ready(function () {
         tabs[0].setAttribute("class", "is-active");
         tabs[1].setAttribute("class", "");
         tabs[2].setAttribute("class", "");
-        document.getElementById("appImg").setAttribute("src", "../assets/images/2.jpg");
+        document.getElementById("appImg").setAttribute("src", "../images/2.jpg");
 
 
     })
